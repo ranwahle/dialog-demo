@@ -1,0 +1,8 @@
+dialog {
+    border-style: dashed;
+    opacity: 1;
+  }
+  
+  :has(dialog[open]) {
+    background-color: black;
+  }
